@@ -9,7 +9,6 @@ import Winner from './components/Winner'
 function App() {
   return (
     <BrowserRouter>
-    <h1>Hola</h1>
       <Routes>
         <Route path="/appcultura/" element={[<HomePage key='hp'/>, <PrincipalButtons key='pb'/>]} />
         {/* <Route path="/" element={<HomePage />} /> */}
