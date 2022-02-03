@@ -9,8 +9,10 @@ import Winner from './components/Winner'
 function App() {
   return (
     <BrowserRouter>
+    <h1>Hola</h1>
       <Routes>
-        <Route path="/" element={[<HomePage key='hp'/>, <PrincipalButtons key='pb'/>]} />
+        {/* <Route path="/" element={[<HomePage key='hp'/>, <PrincipalButtons key='pb'/>]} /> */}
+        <Route path="/" element={<HomePage />} />
         <Route path="/playing" element={<Playing />} />
         <Route path="/gameover" element={<GameOver />} />
         <Route path="/winner" element={<Winner />} />
