@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import style from "./Playing.module.css";
 import { Preguntas } from "../Helpers/BD.jsx";
+import {Navigate} from 'react-router-dom'
 
 const Playing = () => {
   const [aleatorio, setAleatorio] = useState(Math.round(Math.random() * 100));
@@ -20,13 +21,15 @@ const Playing = () => {
     let cuentaAtras = setInterval(() => {
       time > 0
         ? setTime(time - 1)
-        : setGameOver((window.location.href = "/appcultura/gameover"));
+        // : setGameOver((window.location.href = "/appcultura/gameover"));
+        : setGameOver((<Navigate to="/appcultura/gameover"/>));
     }, 1000);
 
 
 
     if(puntuacion === 5){
-      setGameOver((window.location.href = "/appcultura/winner"))
+      // setGameOver((window.location.href = "/appcultura/winner"))
+      setGameOver((<Navigate to="/appcultura/winner"/>));
     }
 
     return () => clearInterval(cuentaAtras);
@@ -46,7 +49,7 @@ const Playing = () => {
     speechSynthesis.speak(new SpeechSynthesisUtterance("Respuesta erronea"));
     setAleatorio(Math.round(Math.random() * 100));
     setVidas(
-      vidas > 0 ? vidas - 1 : setGameOver((window.location.href = "/appcultura/gameover"))
+      vidas > 0 ? vidas - 1 : setGameOver((<Navigate to="/appcultura/gameover"/>))
     );
     setTime(20);
   };
