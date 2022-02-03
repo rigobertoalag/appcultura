@@ -14,11 +14,20 @@
     border-radius: 100%;
     box-shadow: 1px 1px 8px #2c2d49;
 }
+img{
+    width: 50%;
+}
 @keyframes giro{
     0%{
         transform: rotateZ(0deg);
     }
     100%{
         transform: rotateZ(364deg);
+    }
+}
+
+@media(min-width: 768px){
+    img{
+        width: 15%;
     }
 }

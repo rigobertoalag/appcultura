@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
 }
 .containerEnlace {
   background-color: #6667AB;
@@ -29,4 +29,22 @@ a {
 .containerEnlace:active {
   background-color: #7e80c0;
   color: black;
+}
+
+@media(min-width: 768px){
+  .containerEnlace{
+    width: 40%;
+  }
+}
+
+@media(min-width: 1024px){
+  .containerEnlace{
+    width: 30%;
+  }
+}
+
+@media(min-width: 1440px){
+  .containerEnlace{
+    width: 20%;
+  }
 }

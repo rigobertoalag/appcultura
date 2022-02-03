@@ -8,7 +8,7 @@ const Winner = () => {
         <div className={style.container}>
             <h1>¡Felicidades has sumado mas de 5 puntos!</h1>
 
-            <img src='https://illustoon.com/photo/314.png' alt='winner' height='20%'></img>
+            <img src='https://illustoon.com/photo/314.png' alt='winner' width='20%'></img>
 
             <div className={style.buttonContainer}>
                 <button className={style.button}><Link to='/appcultura/playing'>Jugar de nuevo</Link></button>

@@ -25,3 +25,12 @@ h1{
     padding: 20px;
     border-radius: 10px;
 }
+
+@media(min-width: 768px){
+    .buttonContainer{
+        width: 35%;
+    }
+    .button{
+        font-size: large;
+    }
+}
