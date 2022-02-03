@@ -11,8 +11,8 @@ const Winner = () => {
             <img src='https://illustoon.com/photo/314.png' alt='winner' height='20%'></img>
 
             <div className={style.buttonContainer}>
-                <button className={style.button}><Link to='/playing'>Jugar de nuevo</Link></button>
-                <button className={style.button}><Link to="/">Ir al Inicio</Link></button>
+                <button className={style.button}><Link to='/appcultura/playing'>Jugar de nuevo</Link></button>
+                <button className={style.button}><Link to="/appcultura/">Ir al Inicio</Link></button>
             </div>
         </div>
       </>

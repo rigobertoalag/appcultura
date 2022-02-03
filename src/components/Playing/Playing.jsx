@@ -20,13 +20,13 @@ const Playing = () => {
     let cuentaAtras = setInterval(() => {
       time > 0
         ? setTime(time - 1)
-        : setGameOver((window.location.href = "gameover"));
+        : setGameOver((window.location.href = "/appcultura/gameover"));
     }, 1000);
 
 
 
     if(puntuacion === 5){
-      setGameOver((window.location.href = "/winner"))
+      setGameOver((window.location.href = "/appcultura/winner"))
     }
 
     return () => clearInterval(cuentaAtras);
@@ -46,7 +46,7 @@ const Playing = () => {
     speechSynthesis.speak(new SpeechSynthesisUtterance("Respuesta erronea"));
     setAleatorio(Math.round(Math.random() * 100));
     setVidas(
-      vidas > 0 ? vidas - 1 : setGameOver((window.location.href = "/gameover"))
+      vidas > 0 ? vidas - 1 : setGameOver((window.location.href = "/appcultura/gameover"))
     );
     setTime(20);
   };

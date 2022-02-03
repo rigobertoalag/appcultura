@@ -13,7 +13,7 @@ const GameOver = () => {
         </div>
 
         <div className={style.buttonContainer}>
-          <Link to="/">Volver</Link>
+          <Link to="/appcultura/">Volver</Link>
         </div>
       </div>
     </>

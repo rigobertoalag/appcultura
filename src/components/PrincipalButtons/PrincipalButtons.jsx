@@ -7,12 +7,12 @@ const PrincipalButtons = () => {
     <>
       <div className={style.container}>
         <div className={style.containerEnlace}>
-          <Link to="/" className={style.a}>
+          <Link to="/appcultura/" className={style.a}>
             Instrucciones
           </Link>
         </div>
         <div className={style.containerEnlace}>
-          <Link to="/playing" className={style.a}>
+          <Link to="/appcultura/playing" className={style.a}>
             Jugar
           </Link>
         </div>

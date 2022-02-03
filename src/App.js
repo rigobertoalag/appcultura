@@ -11,11 +11,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/appcultura/" element={[<HomePage key='hp'/>, <PrincipalButtons key='pb'/>]} />
-        {/* <Route path="/" element={<HomePage />} /> */}
         <Route path="/appcultura/playing" element={<Playing />} />
         <Route path="/appcultura/gameover" element={<GameOver />} />
         <Route path="/appcultura/winner" element={<Winner />} />
-        Winner
       </Routes>
     </BrowserRouter>
   );
