@@ -11,11 +11,11 @@ function App() {
     <BrowserRouter>
     <h1>Hola</h1>
       <Routes>
-        {/* <Route path="/" element={[<HomePage key='hp'/>, <PrincipalButtons key='pb'/>]} /> */}
-        <Route path="/" element={<HomePage />} />
-        <Route path="/playing" element={<Playing />} />
-        <Route path="/gameover" element={<GameOver />} />
-        <Route path="/winner" element={<Winner />} />
+        <Route path="/appcultura/" element={[<HomePage key='hp'/>, <PrincipalButtons key='pb'/>]} />
+        {/* <Route path="/" element={<HomePage />} /> */}
+        <Route path="/appcultura/playing" element={<Playing />} />
+        <Route path="/appcultura/gameover" element={<GameOver />} />
+        <Route path="/appcultura/winner" element={<Winner />} />
         Winner
       </Routes>
     </BrowserRouter>
