@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/appcultura/static/css/main.6e356354.css",
-    "main.js": "/appcultura/static/js/main.35986ba2.js",
+    "main.js": "/appcultura/static/js/main.dc9e451e.js",
     "static/js/787.ed17ba54.chunk.js": "/appcultura/static/js/787.ed17ba54.chunk.js",
     "index.html": "/appcultura/index.html",
     "main.6e356354.css.map": "/appcultura/static/css/main.6e356354.css.map",
-    "main.35986ba2.js.map": "/appcultura/static/js/main.35986ba2.js.map",
+    "main.dc9e451e.js.map": "/appcultura/static/js/main.dc9e451e.js.map",
     "787.ed17ba54.chunk.js.map": "/appcultura/static/js/787.ed17ba54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e356354.css",
-    "static/js/main.35986ba2.js"
+    "static/js/main.dc9e451e.js"
   ]
 }
