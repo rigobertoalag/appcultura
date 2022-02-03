@@ -16,6 +16,11 @@ const PrincipalButtons = () => {
             Jugar
           </Link>
         </div>
+        <div className={style.containerEnlace}>
+          <Link to="/appcultura/winner" className={style.a}>
+            Ganar
+          </Link>
+        </div>
       </div>
     </>
   );
