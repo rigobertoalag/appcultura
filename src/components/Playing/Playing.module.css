@@ -1,0 +1,97 @@
+.countContainer {
+  display: block;
+  background-color: #6667ab;
+  margin-bottom: 25px;
+}
+.buttonContainer {
+  display: block;
+  text-align: center;
+}
+h2 {
+  color: white;
+}
+.preguntaContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  color: #6667ab;
+  width: 95%;
+  text-align: center;
+}
+.boton {
+  background-color: #6667ab;
+  box-shadow: 3px 3px 10px #2c2d49;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px 0;
+  width: 95%;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  border: none;
+}
+.naturaleza {
+  background-image: url("https://cdn.elnacional.com/wp-content/uploads/2021/07/naturaleza.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 99%;
+}
+.cultura {
+  background-image: url("https://www.mexicodesconocido.com.mx/wp-content/uploads/2021/06/cultura-de-mexico-depositphotos.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 99%;
+}
+.arte {
+  background-image: url("https://wrmx00.epimg.net/programa/imagenes/2017/06/23/en_buena_onda/1498178526_991162_1498178806_noticia_normal.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 99%;
+}
+.deportes {
+  background-image: url("https://s.france24.com/media/display/6aca8d1a-7783-11ea-9cf2-005056bf87d6/w:720/p:16x9/WEB%2005ABR%20DEPORTES%20PORTADA%20FOTO.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 99%;
+}
+.viajes {
+  background-image: url("https://cdn.aarp.net/content/dam/aarp/travel/travel_tips/2020/08/1140-globe-and-world-map-esp.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 99%;
+}
+.warning {
+  color: orange;
+}
+.danger {
+  color: white;
+  background-color: darkred;
+  border-radius: 10px;
+  padding: 5px;
+}
+.normal {
+  color: white;
+}
+.winner {
+  color: gold;
+}
+
+@media (min-width: 422px) {
+  .countContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+}

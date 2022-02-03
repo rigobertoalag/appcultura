@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+}
+h1{
+    color: gold;
+    text-align: center;
+    text-shadow: 1px 2px gray;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.button{
+    background-color: #6667AB;
+    border: none;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}

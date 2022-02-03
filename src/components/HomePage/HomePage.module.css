@@ -1,0 +1,24 @@
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    color: #6667AB;
+    font-family: Helvetica, sans-serif, Arial;
+}
+.container{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.image{
+    animation: giro 12s linear infinite;
+    background-color: #7e80c0;
+    border-radius: 100%;
+    box-shadow: 1px 1px 8px #2c2d49;
+}
+@keyframes giro{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(364deg);
+    }
+}
